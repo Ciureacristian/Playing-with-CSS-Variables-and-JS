@@ -1,0 +1,49 @@
+:root {
+    --base: #ffc600;
+    --spacing: 12px;
+    --blur: 12px;
+}
+
+body{
+    background-color: #193561;
+    text-align: center;
+    color: rgb(240, 234, 234);
+    font-family: 'halvetica neue', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    text-align: center;
+    color: rgb(240, 234, 234);
+    font-size: 48px;
+}
+
+.js{
+    color: var(--base);
+
+}
+
+.controls{
+    margin-bottom: 48px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+input {
+    width: 100px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+
+label {
+    font-size: 24px;
+    width: 50px;
+    font-weight: 100;
+}
